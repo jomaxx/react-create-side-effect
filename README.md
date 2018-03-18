@@ -16,15 +16,15 @@ yarn add react-create-side-effect react
 
 <a name="module_ReactCreateSideEffect..createSideEffect"></a>
 
-### ReactCreateSideEffect~createSideEffect() ⇒ <code>ReactComponent</code>
+### ReactCreateSideEffect~createSideEffect(fn) ⇒ <code>ReactComponent</code>
 
 Creates a component that executes a side effect when component mounts. Return a function to handle any clean up when the component unmounts.
 
 **Kind**: inner method of [<code>ReactCreateSideEffect</code>](#module_ReactCreateSideEffect)
 
-| Type                  |
-| --------------------- |
-| <code>function</code> |
+| Param | Type                  |
+| ----- | --------------------- |
+| fn    | <code>function</code> |
 
 **Example**
 

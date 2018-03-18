@@ -36,7 +36,7 @@
  *
  * @name createSideEffect
  * @function
- * @param {function}
+ * @param {function} fn
  * @return {ReactComponent}
  */
 export { default as createSideEffect } from "./createSideEffect";
